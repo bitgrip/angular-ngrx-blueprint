@@ -1,5 +1,7 @@
 import { Routes } from '@angular/router';
 
+import { NotFoundPageComponent } from './core/components/not-found-page/not-found-page.component';
+
 
 export const routes: Routes = [
   { path: '', redirectTo: '/start', pathMatch: 'full' },
@@ -7,6 +9,5 @@ export const routes: Routes = [
     path: 'start',
     loadChildren: './start/start.module#StartModule',
   },
-  // { path: '**', component: NotFoundPageComponent },
-
+  { path: '**', component: NotFoundPageComponent },
 ];
