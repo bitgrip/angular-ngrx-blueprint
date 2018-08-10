@@ -14,6 +14,12 @@ Knowing that we use SASS: <https://scotch.io/tutorials/using-sass-with-the-angul
 
 Additional Information for Component Styles are here: <https://angular.io/guide/component-styles>
 
+## Translation
+
+Use ngx-translate library for i18n: <https://github.com/ngx-translate/core>
+
+As the loader we use the webpack translate loader <https://github.com/ngx-translate/http-loader#angular-cliwebpack-translateloader-example> for loading the latest translation files available during the application build.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
