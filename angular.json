@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "angular-ngrx-blueprint"
+  "defaultProject": "angular-ngrx-blueprint",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }

@@ -9,5 +9,9 @@ export const routes: Routes = [
     path: 'start',
     loadChildren: './start/start.module#StartModule',
   },
+  {
+    path: 'todo',
+    loadChildren: './todo/todo.module#TodoModule',
+  },
   { path: '**', component: NotFoundPageComponent },
 ];

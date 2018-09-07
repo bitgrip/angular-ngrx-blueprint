@@ -1,0 +1,24 @@
+<section class="todoapp">
+  <header class="header">
+    <h1>Todos</h1>
+    <input class="new-todo" placeholder="What needs to be done?" autofocus="" (keyup.enter)="OnAddTodo($event)">
+  </header>
+  <section class="main" *ngIf="(todos$ | async)?.length > 0; else loading">
+    <ul class="todo-list">
+      <li *ngFor="let todo of todos$ | async" [class.completed]="todo.complete">
+        <div class="view">
+          <input class="toggle" type="checkbox" (click)="OnToggleTodoComplete(todo)" [checked]="todo.complete">
+          <label>{{todo.title}}</label>
+          <button class="destroy" (click)="onRemoveTodo(todo.id)"></button>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer" *ngIf="(todosTotal$ | async) > 0; else loading">
+    <span class="todo-count"><strong>{{todosTotal$ | async}}</strong> {{(todosTotal$ | async) == 1 ? 'item' : 'items'}} left</span>
+  </footer>
+</section>
+
+<ng-template #loading>
+  <div>{{ 'CORE.PROGRESS.FEEDBACK' | translate }}</div>
+</ng-template>

@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "todos": [
+    {
+      "id": 1,
+      "title": "write tests",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "title": "document your mind",
+      "complete": false
+    }
+  ]
+}

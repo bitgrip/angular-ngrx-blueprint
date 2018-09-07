@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { routes } from './routes';
 import { environment } from '../environments/environment';
@@ -23,6 +24,7 @@ import { AppComponent } from './app.component/app.component';
 @NgModule({
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot(routes, {useHash: true}),
 
     /**
