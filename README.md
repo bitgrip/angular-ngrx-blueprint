@@ -1,10 +1,17 @@
 # AngularNgrxBlueprint
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3: `ng new angular-ngrx-blueprint --style=scss`
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.7: `ng new angular-ngrx-blueprint --style=scss`
 
 ## Application State Managing
 
 We use the *ngrx* platform for our application state architecture <https://github.com/ngrx/platform>
+
+### Store was setup with the following commands
+
+```
+npm install @ngrx/{store,effects,entity,router-store,store-devtools} --save
+npm install ngrx-store-freeze --save
+```
 
 This project is already initialised with the Store devtools instrument. This enables powerful time-travel debugging with a chrome extension: <https://github.com/zalmoxisus/redux-devtools-extension>
 
