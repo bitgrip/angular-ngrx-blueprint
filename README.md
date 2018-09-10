@@ -2,13 +2,23 @@
 
 ![todo-app](./frame-generic.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.7: `ng new angular-ngrx-blueprint --style=scss`
+We created this small example project with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.7:
+
+`ng new angular-ngrx-blueprint --style=scss`
+
+Features
+
+* Angular Version 6
+* lazy loading [feature modules](https://angular.io/guide/feature-modules)
+* application state managing with [ngrx](http://ngrx.github.io/)
+* each feature state has it's own state in the app store
+* internationalization [ngx-translate](http://www.ngx-translate.com/) with enabled "WebpackTranslateLoader"
 
 ## Application State Managing
 
 We use the *ngrx* platform for our application state architecture <https://github.com/ngrx/platform>
 
-Store was installed with the following commands:
+Store was initially installed with:
 
 ```
 npm install @ngrx/{store,effects,entity,router-store,store-devtools} --save

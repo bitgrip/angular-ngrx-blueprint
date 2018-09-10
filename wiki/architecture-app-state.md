@@ -40,13 +40,13 @@ Since the user can always interact with the URL directly, so the router is also 
 
 ### StartState (in StartModule)
 
-#### ProductFamilyState
+#### TodosState (in TodosModule)
 
-Our first feature State is the StartState with the product family state. It represent the product families data from server as a persistent state and have to be in sync with the server state.
+Our first feature State is the TodosState with the todo state. It represent the todos data from server as a persistent state and have to be in sync with the server state.
 
-When we loading the product families data with our Loading *action* then a *side effect* will be triggered the get the data from the server via a *service*. If the server response is "Ok" then the Loading Success *action* will be triggered and the data saved to the Store.
+When we loading the todo data with our Loading *action* then a *side effect* will be triggered to get the data from the server via a *service*. If the server response is "Ok" then the Loading Success *action* will be triggered and the data put to the Store.
 
-In StartComponent we *select* the data in the OnInit method.
+In TodoPageComponent we *select* the data in the OnInit method.
 
 
 ***

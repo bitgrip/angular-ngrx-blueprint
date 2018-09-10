@@ -2,7 +2,7 @@
 
 Angular apps are modular. So we use it's own modularity system called *NgModules*. While a small application might have only one NgModule, most apps have many more **feature modules**.
 
-So I'll give you an overview of our modules:
+So we'll give you an overview of our modules:
 
 ![modules overview](./architecture-modules.svg)
 
