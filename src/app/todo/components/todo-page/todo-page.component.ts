@@ -35,8 +35,9 @@ export class TodoPageComponent implements OnInit {
         title: event.target.value,
         complete: false
       };
-
       this.store.dispatch(new fromActions.AddTodo({todo}));
+
+      event.target.value = '';
     });
   }
 

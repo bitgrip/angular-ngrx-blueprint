@@ -8,6 +8,7 @@ We created this small example project with [Angular CLI](https://github.com/angu
 
 Features
 
+* Todo example inspired by <http://todomvc.com/>
 * Angular Version 6
 * lazy loading [feature modules](https://angular.io/guide/feature-modules)
 * application state managing with [ngrx](http://ngrx.github.io/)
