@@ -18,7 +18,9 @@ Features
 
 We use the *ngrx* platform for our application state architecture <https://github.com/ngrx/platform>
 
-Store was initially installed with:
+Additional general information about our store structure can be found in the wiki folder "wiki/architecture-app-state.md"
+
+The whole store was initially installed with:
 
 ```
 npm install @ngrx/{store,effects,entity,router-store,store-devtools} --save
@@ -28,7 +30,7 @@ npm install @ngrx/schematics --save-dev
 ng config cli.defaultCollection @ngrx/schematics
 ```
 
-This project is already initialised with the Store devtools instrument. This enables powerful time-travel debugging with a chrome extension: <https://github.com/zalmoxisus/redux-devtools-extension>
+The project has also devtools instrument installed. This enables powerful time-travel debugging within a browser extension: <https://github.com/zalmoxisus/redux-devtools-extension>
 
 ## Styling
 
