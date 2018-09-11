@@ -14,7 +14,7 @@
       </li>
     </ul>
   </section>
-  <footer class="footer" *ngIf="(todosTotal$ | async) > 0; else loading">
+  <footer class="footer" *ngIf="(todosTotal$ | async) > 0">
     <span class="todo-count"><strong>{{todosTotal$ | async}}</strong> {{(todosTotal$ | async) == 1 ? 'item' : 'items'}} left</span>
   </footer>
 </section>
