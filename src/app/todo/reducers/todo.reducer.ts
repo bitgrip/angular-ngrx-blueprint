@@ -81,7 +81,6 @@ export function reducer(state = initialState, action: fromActions.TodoActionsUni
     }
 
     case fromActions.TodoActionTypes.ADD_TODO: {
-      console.log(action.payload.todo);
       return adapter.addOne(action.payload.todo, state);
     }
 
