@@ -1,8 +1,10 @@
 # AngularNgrxBlueprint
 
+We want to intend this "TODO" Example as an inspiration for starting a Angular (client-side) project. How you can organize and structure your code files.
+
 ![todo-app](./frame-generic.png)
 
-We created this small example project with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.7:
+We created it with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.7:
 
 `ng new angular-ngrx-blueprint --style=scss`
 
@@ -12,7 +14,7 @@ Features
 * Angular Version 6
 * lazy loading [feature modules](https://angular.io/guide/feature-modules)
 * application state managing with [ngrx](http://ngrx.github.io/)
-* each feature state has it's own state in the app store
+* each feature state is a own state in the app store
 * internationalization [ngx-translate](http://www.ngx-translate.com/) with enabled "WebpackTranslateLoader"
 
 ## Application State Managing
