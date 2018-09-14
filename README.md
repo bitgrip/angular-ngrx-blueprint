@@ -16,6 +16,7 @@ Features
 * application state managing with [ngrx](http://ngrx.github.io/)
 * each feature state is a own state in the app store
 * internationalization [ngx-translate](http://www.ngx-translate.com/) with enabled "WebpackTranslateLoader"
+* [aot compiler](https://angular.io/guide/aot-compiler) ready
 
 ## Application State Managing
 
