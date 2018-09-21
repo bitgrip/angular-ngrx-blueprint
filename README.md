@@ -20,9 +20,9 @@ For reference, we created with [Angular CLI](https://github.com/angular/angular-
 * Todo example inspired by <http://todomvc.com/>
 * Angular Version 6
 * application state managing with [ngrx](http://ngrx.github.io/)
-* lazy loading [feature modules](https://angular.io/guide/feature-modules)
-  * feature-first approach (all components, services and state folders starts in a feature folder)
-* each feature state is a own state in the app store
+* feature-first approach (all components, services and state folders lay in a feature folder)
+  * lazy loading [feature modules](https://angular.io/guide/feature-modules)
+  * each feature state is a own state in the app store
 * internationalization [ngx-translate](http://www.ngx-translate.com/) with enabled "WebpackTranslateLoader"
 * [aot compiler](https://angular.io/guide/aot-compiler) ready
 
