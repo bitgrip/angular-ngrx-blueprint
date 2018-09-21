@@ -93,7 +93,7 @@ ng generate feature <featureFolder>/<FeatureSet> --group
 
 ## Build
 
-Run `npm build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. Use the `--aot` flag for aot compiling.
 
 ## Running unit tests
 
