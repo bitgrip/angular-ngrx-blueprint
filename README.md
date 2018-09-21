@@ -1,14 +1,21 @@
-# AngularNgrxBlueprint
+# Angular Ngrx Blueprint
 
 We want to intend this "TODO" Example as an inspiration for starting a Angular (client-side) project. How you can organize and structure your code files.
 
 ![todo-app](./frame-generic.png)
 
-We created it with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.7:
+After cloning you can start it with:
+
+```
+npm install
+npm start
+```
+
+For reference, we created with [Angular CLI](https://github.com/angular/angular-cli):
 
 `ng new angular-ngrx-blueprint --style=scss`
 
-Features
+## Features
 
 * Todo example inspired by <http://todomvc.com/>
 * Angular Version 6
@@ -18,6 +25,9 @@ Features
 * each feature state is a own state in the app store
 * internationalization [ngx-translate](http://www.ngx-translate.com/) with enabled "WebpackTranslateLoader"
 * [aot compiler](https://angular.io/guide/aot-compiler) ready
+
+A benefit of this approach is you can use this example as a "starter-kit" for your new project. All good things are setup ;) 
+After cloning just remove the "TODO" feature module with your own.
 
 ## Application State Managing
 
