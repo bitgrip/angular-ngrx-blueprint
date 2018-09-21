@@ -33,7 +33,7 @@ After cloning just remove the "TODO" feature module with your own.
 
 We use the *ngrx* platform for our application state architecture <https://github.com/ngrx/platform>
 
-Additional general information about our store structure can be found in the wiki folder "wiki/architecture-app-state.md"
+Additional general information about our store structure can be found in the wiki folder [architecture-app-state](https://github.com/bitgrip/angular-ngrx-blueprint/blob/master/wiki/architecture-app-state.md)
 
 The whole store was initially installed with:
 
